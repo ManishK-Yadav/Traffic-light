@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body{
+    position: relative;
+}
+.container{
+    width:60px;
+    height:150px;
+    border:2px solid black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    background-color: #242424;
+}
+#red,#yellow,#green{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    margin: 7px;
+    border: 1px solid #fff;
+}
